@@ -11,17 +11,50 @@ a{
   color:blue;
   text-decoration: none;
 }
-
-
-/* ------------------------------------*/
-/* sidebar */
-/* ------------------------------------*/
+p{
+  color: grey;
+}
 
 table{
   background-color: white;
-  width: 900px;
+  width: 1000px;
+  margin: 0 auto;
 }
+ul{
+  list-style-type: none;
+  float:left;
+}
+li{
+  color: rgb();
+}
+
+#mainimage{
+  border: 1px solid grey;
+  float: right;
+  position:absolute;
+  top: 125px;
+  left: 565px;
+}
+.mainparagraph{
+  width: 550px;
+  float: left;
+}
+
+
+.batman{
+  border-bottom: 1px solid grey;
+  padding: 5px 5px 5px 5px;
+}
+
 
 #sidebar{
   background-color: grey;
+  width: 250px;
+
+}
+#footer{
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: right;
 }
