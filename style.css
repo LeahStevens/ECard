@@ -4,6 +4,7 @@
 body{
   background-image:url("images/background_light.jpg");
   background-repeat: no-repeat;
+  background-color: #c4c0bd;
 
 }
 /* All links are blue with no underline*/
@@ -19,13 +20,19 @@ table{
   background-color: white;
   width: 1000px;
   margin: 0 auto;
+
 }
 ul{
   list-style-type: none;
-  float:left;
+  float: left;
+  position: relative;
+  top: -200px;
+  left: -30px;
+
 }
 li{
-  color: rgb();
+  color: #656565;
+  padding: 5px 5px 5px 5px;
 }
 
 #mainimage{
@@ -48,7 +55,7 @@ li{
 
 
 #sidebar{
-  background-color: grey;
+  background-color: #A9A9A9;
   width: 250px;
 
 }
@@ -57,4 +64,11 @@ li{
   color: white;
   padding: 25px;
   text-align: right;
+}
+
+#gradient{
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB), color-stop(1, #FFFFFF));
+}
+#gradient2{
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB), color-stop(1, #FFFFFF));
 }
